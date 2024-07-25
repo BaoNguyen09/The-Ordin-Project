@@ -1,6 +1,18 @@
-// Event practice
-const btn = document.querySelector("#btn");
-btn.onclick = () => alert("Hello World");
+// Ways to select elements in DOM
+
+// getElementByIdntById()
+// getElementByClassName()
+// getElementByTagName()
+// querySelector()
+// querySelectorAll()
+
+// Ways to create, append, remove, alter elements
+// Element creation: createElement(tagName, [option])
+// Append elements: parentNode.appendChild(childnode); parentNode.insertBefore(newNode, referenceNode)
+// Remove elements: parentNode.removeChild(child)
+// Add text: element.innerText; element.textContent
+// Change attribute: setAttribute(attributeName, stringValue)
+
 
 // DOM practice 
 const container = document.querySelector("#container");
@@ -25,11 +37,16 @@ p2.textContent = "ME TOO";
 div.appendChild(heading1);
 div.appendChild(p2);
 
-
-
 container.appendChild(p);
 container.appendChild(heading3);
 container.appendChild(div);
+
+
+
+
+
+
+
 
 
 
